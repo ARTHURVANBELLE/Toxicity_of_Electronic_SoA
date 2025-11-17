@@ -1,7 +1,7 @@
 PWD c:\Users\arthu\source\MA2\State_of_the_art
 INPUT C:\Users\arthu\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\arthu\source\MA2\State_of_the_art\bare_jrnl.tex
-OUTPUT bare_jrnl.log
+INPUT c:\Users\arthu\source\MA2\State_of_the_art\Toxicity_of_Electronics_SoA.tex
+OUTPUT Toxicity_of_Electronics_SoA.log
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex\latex\ieeetran\IEEEtran.cls
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex\latex\ieeetran\IEEEtran.cls
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
@@ -49,10 +49,10 @@ INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\bare_jrnl.aux
-INPUT .\bare_jrnl.aux
-INPUT bare_jrnl.aux
-OUTPUT bare_jrnl.aux
+INPUT .\Toxicity_of_Electronics_SoA.aux
+INPUT .\Toxicity_of_Electronics_SoA.aux
+INPUT Toxicity_of_Electronics_SoA.aux
+OUTPUT Toxicity_of_Electronics_SoA.aux
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
@@ -63,7 +63,7 @@ INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-OUTPUT bare_jrnl.pdf
+OUTPUT Toxicity_of_Electronics_SoA.pdf
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\arthu\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -83,7 +83,7 @@ INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT bare_jrnl.aux
+INPUT Toxicity_of_Electronics_SoA.aux
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\arthu\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb

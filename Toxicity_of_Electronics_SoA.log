@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.20)  17 NOV 2025 22:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.20)  17 NOV 2025 22:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/arthu/source/MA2/State_of_the_art/bare_jrnl.tex
-(c:/Users/arthu/source/MA2/State_of_the_art/bare_jrnl.tex
+**c:/Users/arthu/source/MA2/State_of_the_art/Toxicity_of_Electronics_SoA.tex
+(c:/Users/arthu/source/MA2/State_of_the_art/Toxicity_of_Electronics_SoA.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
@@ -107,8 +107,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count277
 \l__pdf_internal_box=\box54
-) (bare_jrnl.aux)
-\openout1 = `bare_jrnl.aux'.
+) (Toxicity_of_Electronics_SoA.aux)
+\openout1 = `Toxicity_of_Electronics_SoA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 352.
 LaTeX Font Info:    ... okay on input line 352.
@@ -140,7 +140,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 
-] (bare_jrnl.aux)
+] (Toxicity_of_Electronics_SoA.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -148,14 +148,14 @@ L3 programming layer <2025-01-18>
  ) 
 Here is how much of TeX's memory you used:
  1285 strings out of 473523
- 25845 string characters out of 5714630
- 417481 words of memory out of 5000000
+ 26079 string characters out of 5714630
+ 417517 words of memory out of 5000000
  24569 multiletter control sequences out of 15000+600000
  592731 words of font info for 94 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 36i,6n,56p,247b,222s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 36i,6n,56p,265b,222s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_jrnl.pdf (1 page, 32988 bytes).
+Output written on Toxicity_of_Electronics_SoA.pdf (1 page, 32988 bytes).
 PDF statistics:
  22 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

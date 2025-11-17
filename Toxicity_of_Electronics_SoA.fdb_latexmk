@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1763415875.67208 "c:/Users/arthu/source/MA2/State_of_the_art/bare_jrnl.tex" "bare_jrnl.pdf" "bare_jrnl" 1763415876.28533 0
+["pdflatex"] 1763416223.83726 "c:/Users/arthu/source/MA2/State_of_the_art/Toxicity_of_Electronics_SoA.tex" "Toxicity_of_Electronics_SoA.pdf" "Toxicity_of_Electronics_SoA" 1763416224.45893 0
   "C:/Users/arthu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1763374447 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/arthu/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1742459596 12036089 08a44ce81be94869c77af96f701b70bf ""
   "C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -27,11 +27,11 @@
   "C:/Users/arthu/AppData/Local/Programs/MiKTeX/tex/latex/ieeetran/IEEEtran.cls" 1440627644 281957 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
   "C:/Users/arthu/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1716480499 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
   "C:/Users/arthu/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 15056f4a61917ceed3a44e4ac11fcc52 ""
-  "bare_jrnl.aux" 1763415876 705 b8faf4cf6fcdc5c2d9c9acbbf63bcb4a "pdflatex"
-  "bare_jrnl.tex" 1763415874 25609 ffec7cf80e5af28d54fe55f1a3c89237 ""
-  "c:/Users/arthu/source/MA2/State_of_the_art/bare_jrnl.tex" 1763415874 25609 ffec7cf80e5af28d54fe55f1a3c89237 ""
+  "Toxicity_of_Electronics_SoA.aux" 1763416224 705 b8faf4cf6fcdc5c2d9c9acbbf63bcb4a "pdflatex"
+  "Toxicity_of_Electronics_SoA.tex" 1763416217 25609 ffec7cf80e5af28d54fe55f1a3c89237 ""
+  "c:/Users/arthu/source/MA2/State_of_the_art/Toxicity_of_Electronics_SoA.tex" 1763416217 25609 ffec7cf80e5af28d54fe55f1a3c89237 ""
   (generated)
-  "bare_jrnl.aux"
-  "bare_jrnl.log"
-  "bare_jrnl.pdf"
+  "Toxicity_of_Electronics_SoA.aux"
+  "Toxicity_of_Electronics_SoA.log"
+  "Toxicity_of_Electronics_SoA.pdf"
   (rewritten before read)
