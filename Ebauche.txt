@@ -1,0 +1,47 @@
+SEARCH FOR : RoHS, Brominated Flame retardants, 
+FROM : Toxic Chemicals in Computers Reloaded
+
+    Bromine (Br), cadmium (Cd), mercury (Hg), lead (Pb) are typical chemicals we can 
+    find in various electronic components.
+
+    Phtalates were found in outer plastic coating
+
+    Bromine for flame retardants
+
+    Lead 
+        - used in solder
+        - highly toxic --> Effect on nervous system, hearth, kidney and brain
+
+    Hexavalent chromium
+        - corrosion protection of metal
+        - carcinogen
+    
+    Mercury
+        - various applications of electronics
+        - damage to the central nervous system and kidneys
+    
+    Cadmium
+        - carcinogen
+        - damage to kidneys and bone structure
+    
+    Brominated flame retardants (BFRs)
+        - highly persistent in the environment
+        - 
+    
+    Phtalates
+        - used as plasticizers in PVC
+        - volatile since they are not physically bounded to the PVC
+        - damage and changes to human reproduction system
+
+    
+
+
+FROM : EU Directive 2011 RoHS
+    Lead (0,1 %)
+    Mercury (0,1 %)
+    Cadmium (0,01 %)
+    Hexavalent chromium (0,1 %)
+    Polybrominated biphenyls (PBB) (0,1 %)
+    Polybrominated diphenyl ethers (PBDE) (0,1 %)
+
+    /!\ Exceptions exist !
