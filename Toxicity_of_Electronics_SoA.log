@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.20)  26 NOV 2025 18:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.20)  27 NOV 2025 23:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -126,12 +126,27 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 352.
 LaTeX Font Info:    ... okay on input line 352.
 
 -- Lines per column: 58 (exact).
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--573
+
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 627.
+(Font)              <8> on input line 583.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 627.
+(Font)              <6> on input line 583.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 627.
+(Font)              <5> on input line 583.
+
+Underfull \hbox (badness 10000) in paragraph at lines 593--593
+[]\OT1/ptm/m/n/8 Corrosion-resistant coat-ings,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 593--593
+\OT1/ptm/m/n/8 metal plat-ing, pro-tec-tive
+ []
+
 
 
 
@@ -139,25 +154,24 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1{C:/Users/arthu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
-
-] (Toxicity_of_Electronics_SoA.aux)
+] [2] (Toxicity_of_Electronics_SoA.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1285 strings out of 473523
- 26079 string characters out of 5714630
- 417517 words of memory out of 5000000
- 24569 multiletter control sequences out of 15000+600000
- 592731 words of font info for 94 fonts, out of 8000000 for 9000
+ 1297 strings out of 473523
+ 26299 string characters out of 5714630
+ 430517 words of memory out of 5000000
+ 24579 multiletter control sequences out of 15000+600000
+ 595562 words of font info for 97 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 36i,6n,56p,265b,222s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 36i,11n,56p,379b,253s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Toxicity_of_Electronics_SoA.pdf (1 page, 33002 bytes).
+Output written on Toxicity_of_Electronics_SoA.pdf (2 pages, 50843 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
+ 25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
