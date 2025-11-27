@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.20)  28 NOV 2025 00:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.20)  28 NOV 2025 00:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -132,6 +132,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 562--586
  []
 
 
+Underfull \hbox (badness 4967) in paragraph at lines 562--586
+\OT1/ptm/m/n/10 Biphenyls (PBB) and Poly-bromi-nated Diphenyl Ethers
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 562--586
 
  []
@@ -179,19 +184,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 562--586
 
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 595.
+(Font)              <8> on input line 616.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 595.
+(Font)              <6> on input line 616.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 595.
+(Font)              <5> on input line 616.
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
-[]\OT1/ptm/m/n/8 Corrosion-resistant coat-ings,
+Underfull \hbox (badness 10000) in paragraph at lines 618--618
+[]\OT1/ptm/b/n/8 Max
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
-\OT1/ptm/m/n/8 metal plat-ing, pro-tec-tive
+Underfull \hbox (badness 4543) in paragraph at lines 620--620
+[]\OT1/ptm/m/n/8 Solders, ca-ble sheath-ing, CRT-
+ []
+
+
+Overfull \hbox (4.98178pt too wide) in paragraph at lines 634--634
+[]\OT1/ptm/m/n/8 BBP/DBP/DIBP| 
  []
 
 
@@ -199,7 +209,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 605--605
 [1{C:/Users/arthu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
-] [2] (Toxicity_of_Electronics_SoA.aux)
+]
+
+
+
+[2
+
+] (Toxicity_of_Electronics_SoA.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -207,14 +223,14 @@ L3 programming layer <2025-01-18>
  ) 
 Here is how much of TeX's memory you used:
  1297 strings out of 473523
- 26292 string characters out of 5714630
- 435517 words of memory out of 5000000
+ 26290 string characters out of 5714630
+ 434517 words of memory out of 5000000
  24580 multiletter control sequences out of 15000+600000
  593878 words of font info for 95 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 36i,11n,56p,379b,253s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 36i,10n,56p,379b,273s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Toxicity_of_Electronics_SoA.pdf (2 pages, 53875 bytes).
+Output written on Toxicity_of_Electronics_SoA.pdf (2 pages, 53668 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -564,7 +564,7 @@ This state of the art report will only treat about the toxicity of the chemicals
 It is important to know that not only the electronic components themselves contain toxic compounds but also the metal or plastic casing,
 the wiring, the solder and other mechanical or electrical items that could be included in most of the electronic devices.
 \\\\
-The most common and well-known toixc chemicals are listed in the table 1 in the annexes.
+The most common and well-known toixc chemicals are listed in Table~\ref{tab:toxics_electronics}.
 Brominated Flame Retardants (BFR) are a big concern since they are used in most of electronic device for safety policies imposed by EU \cite{Goosey2006}.
 The BFRs are extremely present in our lives and are able to bioaccumulate. They are dangerous for most of the living beings as they are endocrine disruptors and carcinogenic \cite{Brown2004, Simonsen2000}.
 They are present in pcb and incorporated in polymers which are used for casing. This means we are almost constantly in contact with BFRs.
@@ -583,38 +583,6 @@ Mercury (Hg) is used in some switches, sensors and lamps. ---> TO DEVELOP
 Hexavalent chromium (Cr VI) is used for corrosion-resistant coatings and metal plating. ---> TO DEVELOP
 \\\\
 Other toxic chemicals can be found in electronic devices but are less common. ---> TO DEVELOP
-
-
-
-
-
-\begin{table*}[ht]
-  \caption{Common toxic chemicals in everyday electronic devices — EU limits and potential hazards}
-  \label{tab:toxics_electronics}
-  \centering
-  \begin{tabular}{|p{2.5cm}|p{2.5cm}|p{3.5cm}|p{5.0cm}|}
-    \hline
-    \textbf{Substance} & \textbf{Max. concentration} & \textbf{Common uses} & \textbf{Toxicity} \\ \hline
-
-    Lead & 0.1 \% & Solders, cable sheathing, CRT-glass, other components.& \\ \hline
-
-    Mercury & 0.1 \%  & Switches, sensors, some lamps or fluorescent elements, older electronic meters/gauges. &  \\ \hline
-
-    Cadmium & 0.01 \%  & Batteries (e.g. Ni–Cd), electroplating, coatings, older CRT phosphors, stabilizers in plastics. & \\ \hline
-
-    Hexavalent chromium & 0.1 \%  & Corrosion-resistant coatings, metal plating, protective finishes on metal housing or parts. &  \\ \hline
-
-    PBB & 0.1 \%  & Plastics, housings, insulation, printed circuit boards (PCBs), casings — to reduce flammability. & \\ \hline
-
-    PBDE & 0.1 \%  & Plastics, PCBs, cable insulation, housings. & \\ \hline
-
-    2‑ethylhexyl, DEHP & 0.1 \%  & Plasticizers in cables, insulation, plastic parts, housings. & \\ \hline
-
-    BBP, DBP, DIBP & 0.1 \%  & Similar uses: plastic parts, cable insulation, polymer components. & \\ \hline
-
-  \end{tabular}
-\end{table*}
-
 
 
 \section{Exposure Pathways}
@@ -639,36 +607,34 @@ Are the regulations well enforced ?
 % do not use \section anymore after \appendix, only \section*
 % is possibly needed
 
-% use appendices with more than one appendix
-% then use \section to start each appendix
-% you must declare a \section before using any
-% \subsection or using \label (\appendices by itself
-% starts a section numbered zero.)
-%
 
-
-\appendices
-\section{Appendix title}
-Appendix one text goes here.
-
-% you can choose not to have a title for an appendix
-% if you want by leaving the argument blank
-
-% Can use something like this to put references on a page
-% by themselves when using endfloat and the captionsoff option.
-\ifCLASSOPTIONcaptionsoff
-  \newpage
-\fi
-
-
-
-% trigger a \newpage just before the given reference
-% number - used to balance the columns on the last page
-% adjust value as needed - may need to be readjusted if
-% the document is modified later
-%\IEEEtriggeratref{8}
-% The "triggered" command can be changed if desired:
-%\IEEEtriggercmd{\enlargethispage{-5in}}
+\begin{table}[!t]
+  \caption{Toxic chemicals in electronics — EU limits}
+  \label{tab:toxics_electronics}
+  \centering
+  \footnotesize
+  \begin{tabular}{|p{1.7cm}|p{0.6cm}|p{4cm}|}
+    \hline
+    \textbf{Substance} & \textbf{Max \%} & \textbf{Common uses} \\ \hline
+    
+    Lead & 0.1 & Solders, cable sheathing, CRT-glass \\ \hline
+    
+    Mercury & 0.1 & Switches, sensors, lamps \\ \hline
+    
+    Cadmium & 0.01 & Ni–Cd batteries, electroplating \\ \hline
+    
+    Cr VI & 0.1 & Coatings, metal plating \\ \hline
+    
+    PBB & 0.1 & PCBs, plastic housings \\ \hline
+    
+    PBDE & 0.1 & PCBs, cable insulation \\ \hline
+    
+    DEHP & 0.1 & Cable plasticizers \\ \hline
+    
+    BBP/DBP/DIBP & 0.1 & Plastic components \\ \hline
+    
+  \end{tabular}
+\end{table}
 
 % references section
 
