@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.20)  28 NOV 2025 00:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.20)  28 NOV 2025 22:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -142,11 +142,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 562--586
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 562--586
-\OT1/ptm/m/n/10 Another im-por-tant heavy metal is Lead (Pb). It was
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 562--586
 
  []
@@ -222,15 +217,15 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1297 strings out of 473523
- 26290 string characters out of 5714630
+ 1303 strings out of 473523
+ 26401 string characters out of 5714630
  434517 words of memory out of 5000000
- 24580 multiletter control sequences out of 15000+600000
+ 24586 multiletter control sequences out of 15000+600000
  593878 words of font info for 95 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  36i,10n,56p,379b,273s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Toxicity_of_Electronics_SoA.pdf (2 pages, 53668 bytes).
+Output written on Toxicity_of_Electronics_SoA.pdf (2 pages, 56102 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
