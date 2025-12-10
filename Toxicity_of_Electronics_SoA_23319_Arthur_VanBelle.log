@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.20)  28 NOV 2025 22:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.20)  10 DEC 2025 18:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -127,77 +127,6 @@ LaTeX Font Info:    ... okay on input line 352.
 
 -- Lines per column: 58 (exact).
 
-Underfull \hbox (badness 10000) in paragraph at lines 562--586
-
- []
-
-
-Underfull \hbox (badness 4967) in paragraph at lines 562--586
-\OT1/ptm/m/n/10 Biphenyls (PBB) and Poly-bromi-nated Diphenyl Ethers
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 562--586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 562--586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 562--586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 562--586
-
- []
-
-
-Underfull \hbox (badness 2689) in paragraph at lines 562--586
-\OT1/ptm/m/n/10 Mercury (Hg) is used in some switches, sen-sors and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 562--586
-
- []
-
-
-Underfull \hbox (badness 4193) in paragraph at lines 562--586
-\OT1/ptm/m/n/10 Hexavalent chromium (Cr VI) is used for corrosion-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 562--586
-
- []
-
-
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 616.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 616.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 616.
-
-Underfull \hbox (badness 10000) in paragraph at lines 618--618
-[]\OT1/ptm/b/n/8 Max
- []
-
-
-Underfull \hbox (badness 4543) in paragraph at lines 620--620
-[]\OT1/ptm/m/n/8 Solders, ca-ble sheath-ing, CRT-
- []
-
-
-Overfull \hbox (4.98178pt too wide) in paragraph at lines 634--634
-[]\OT1/ptm/m/n/8 BBP/DBP/DIBP| 
- []
 
 
 
@@ -205,27 +134,47 @@ Overfull \hbox (4.98178pt too wide) in paragraph at lines 634--634
 
 
 ]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 658.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 658.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 658.
+
+Underfull \hbox (badness 10000) in paragraph at lines 660--660
+[]\OT1/ptm/b/n/8 Max
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 662--662
+[]\OT1/ptm/m/n/8 Solders, ca-ble sheath-ing, CRT-
+ []
+
+
+Overfull \hbox (4.98178pt too wide) in paragraph at lines 676--676
+[]\OT1/ptm/m/n/8 BBP/DBP/DIBP| 
+ []
 
 
 
-[2
 
-] (Toxicity_of_Electronics_SoA_23319_Arthur_VanBelle.aux)
+
+[2] (Toxicity_of_Electronics_SoA_23319_Arthur_VanBelle.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1303 strings out of 473523
- 26687 string characters out of 5714630
- 434561 words of memory out of 5000000
- 24586 multiletter control sequences out of 15000+600000
+ 1306 strings out of 473523
+ 26721 string characters out of 5714630
+ 436561 words of memory out of 5000000
+ 24589 multiletter control sequences out of 15000+600000
  593878 words of font info for 95 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 36i,10n,56p,401b,273s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 36i,10n,56p,401b,249s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Toxicity_of_Electronics_SoA_23319_Arthur_VanBelle.pdf (2 pages, 56102 bytes).
+Output written on Toxicity_of_Electronics_SoA_23319_Arthur_VanBelle.pdf (2 pages, 59336 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
