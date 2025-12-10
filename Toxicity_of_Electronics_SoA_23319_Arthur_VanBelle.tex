@@ -599,11 +599,39 @@ The two main exposure pathways are inhalation and dermal contact. \cite{Alvarez2
 Other toxic chemicals can be found in electronic devices but are less common.
 The discussed chemicals are the most widespread and the most regulated by the European Union.
 
-
+\begin{table}[!t]
+  \caption{Common Toxic Chemicals in Electronics and EU Limits}
+  \label{tab:toxics_electronics}
+  \centering
+  \footnotesize
+  \begin{tabular}{lcl}
+    \hline
+    \textbf{Substance} & \textbf{Max (\%)} & \textbf{Main Uses} \\ 
+    \hline
+    Lead (Pb) & 0.1 & Solders, batteries \\
+    Mercury (Hg) & 0.1 & Switches, sensors \\
+    Cadmium (Cd) & 0.01 & Ni-Cd batteries \\
+    Hexavalent Cr & 0.1 & Metal plating \\
+    PBB & 0.1 & Flame retardants \\
+    PBDE & 0.1 & Flame retardants \\
+    DEHP & 0.1 & Cable plasticizers \\
+    BBP/DBP/DIBP & 0.1 & Plasticizers \\
+    \hline
+  \end{tabular}
+  
+  \vspace{0.5em}
+  \footnotesize
+  \begin{flushleft}
+  \textit{Note:} PBB = Polybrominated Biphenyls; PBDE = Polybrominated Diphenyl Ethers; 
+  DEHP = Di(2-ethylhexyl) phthalate; BBP = Benzyl butyl phthalate; 
+  DBP = Dibutyl phthalate; DIBP = Diisobutyl phthalate. 
+  Limits from EU RoHS Directive \cite{EU_RoHS_Amendment}.
+  \end{flushleft}
+\end{table}
 
 \section{Exposure Pathways}
 How are we exposed to these toxic chemicals when handling electronic devices ?
-The main exposure pathways are inhalation, ingestion and dermal contact.
+The main exposure pathways are inhalation, ingestion and dermal contact \cite{EC_SWD_2023_760}.
 The inhalation of dust particles is a common way to be exposed to toxic chemicals.
 The dust particles can come from the handling of the electronic devices or from the degradation of the devices over time or from the unboxing of new devices.
 The ingestion of toxic chemicals can happen when we eat or drink without washing our hands after handling electronic devices.
@@ -627,10 +655,20 @@ The RoHS is a good step to limit the use of toxic chemicals in electronic device
 However, we could wonder if the regulations are sufficient to protect us since the regulation only limits the concentration of toxic chemicals.
 As we can read in RoHS directive, exemptions are possible for certain device categories purchased before 2019.
 
-
-Are the regulations sufficient to protect us from these toxic chemicals ?
 Are the regulations well enforced ?
-Importance of recycling and e-waste management (in food chain, in environment...)
+According to an impact assesment report from the European Commission from 2017 \cite{EU2017ImpactAssessment},
+23-28\% of the electronic devices placed on the EU market were non-compliant with RoHS directive.
+This can be explained by the complexity of the supply chain and the lack of control.
+The enforcement of the regulation is uneven across the EU member states as well.
+Each member state is responsible for the enforcement of the regulation within its territory.\cite{EC_SWD_2023_760}
+The reports about non-compliant devices are mainly about electronic devices imported from China.\cite{EC_SWD_2023_760}
+Some companies should benefit from exemptions but the exemption system seems to unclear and difficult to enforce as well according to the evaluation report from 2023 \cite{EC_SWD_2023_760}.
+
+
+The RoHS directive is not only about the toxicity for humans but also for the environment.
+The recycling of electronic devices and the correct management of e-waste is an important aspect to consider as well.
+It is important to regulate the use of toxic chemicals in electronic devices but also to ensure that the devices are recycled properly to avoid environmental contamination.
+The protection of the environment is an indirect protection for humans as well. Most of the sources used in this review deal with ingestion of toxic chemicals via contaminated food or water as well.
 
 \section{Conclusion}
 This review has highlighted the presence of toxic chemicals in everyday electronic devices and their potential health risks.
@@ -649,43 +687,6 @@ We can expect it to lead to new regulations which will then lead to the developm
 % do not use \section anymore after \appendix, only \section*
 % is possibly needed
 
-
-\begin{table}[!t]
-  \caption{Toxic chemicals in electronics — EU limits}
-  \label{tab:toxics_electronics}
-  \centering
-  \footnotesize
-  \begin{tabular}{|p{1.7cm}|p{0.6cm}|p{4cm}|}
-    \hline
-    \textbf{Substance} & \textbf{Max \%} & \textbf{Common uses} \\ \hline
-    
-    Lead & 0.1 & Solders, cable sheathing, CRT-glass \\ \hline
-    
-    Mercury & 0.1 & Switches, sensors, lamps \\ \hline
-    
-    Cadmium & 0.01 & Ni–Cd batteries, electroplating \\ \hline
-    
-    Cr VI & 0.1 & Coatings, metal plating \\ \hline
-    
-    PBB & 0.1 & PCBs, plastic housings \\ \hline
-    
-    PBDE & 0.1 & PCBs, cable insulation \\ \hline
-    
-    DEHP & 0.1 & Cable plasticizers \\ \hline
-    
-    BBP/DBP/DIBP & 0.1 & Plastic components \\ \hline
-    
-  \end{tabular}
-  
-  \vspace{0.5em}
-  \footnotesize
-  \begin{flushleft}
-  \textit{Note:} PBB = Polybrominated Biphenyls; PBDE = Polybrominated Diphenyl Ethers; 
-  DEHP = Di(2-ethylhexyl) phthalate; BBP = Benzyl butyl phthalate; 
-  DBP = Dibutyl phthalate; DIBP = Diisobutyl phthalate; 
-  Cr VI = Hexavalent chromium. Maximum concentration limits are based on EU RoHS Directive \cite{EU_RoHS_Amendment}.
-  \end{flushleft}
-\end{table}
 
 % references section
 
@@ -716,7 +717,7 @@ F.~Simonsen, M.~Stavnsberg, L.~Moller, and T.~Madsen, ``Brominated flame retarda
 G.~Flora, D.~Gupta, and A.~Tiwari, ``Toxicity of lead: A review with recent updates,'' \emph{Interdisciplinary Toxicology}, vol.~5, no.~2, pp.~47--58, 2012, doi: 10.2478/v10102-012-0009-2.
 
 \bibitem{Wadi1999}
-S.~Wadi and G.~Ahmad, ``Effects of lead on the male reproductive system in mice,'' \emph{Journal of Toxicology and Environmental Health, Part A}, vol.~56, pp.~513--521, 1999, doi: 10.1080/009841099157953.
+S.~A.~Wadi and G.~Ahmad, ``Effects of lead on the male reproductive system in mice,'' \emph{Journal of Toxicology and Environmental Health, Part A}, vol.~56, no.~7, pp.~513--521, Apr. 1999, doi: 10.1080/009841099157953.
 
 \bibitem{Gillis2012}
 B.~S.~Gillis, Z.~Arbieva, and I.~M.~Gavin, ``Analysis of lead toxicity in human cells,'' \emph{BMC Genomics}, vol.~13, no.~344, 2012, doi: 10.1186/1471-2164-13-344.
@@ -746,7 +747,12 @@ S.~T.~Zulaikhah, J.~Wahyuwibowo, and A.~A.~Pratama, ``Mercury and its effect on 
 \bibitem{Alvarez2021}
 C.~C.~Alvarez, M.~E.~Bravo Gómez, and A.~H.~Zavala, ``Hexavalent chromium: Regulation and health effects,'' \emph{Journal of Trace Elements in Medicine and Biology}, vol.~65, p.~126729, May 2021, doi: 10.1016/j.jtemb.2021.126729.
 
-% Europe RoHS discussion
+\bibitem{EC_SWD_2023_760}
+European Commission, ``Commission Staff Working Document: Evaluation of Directive 2011/65/EU on the Restriction of the Use of Certain Hazardous Substances in Electrical and Electronic Equipment,'' SWD 2023 760 final, Brussels, Dec. 2023.
+
+\bibitem{EU2017ImpactAssessment}
+European Commission, ``Commission Staff Working Document: Impact Assessment Accompanying the Document Proposal for a Regulation of the European Parliament and of the Council laying down rules and procedures for compliance with and enforcement of Union harmonisation legislation on products,'' SWD(2017) 467 final, COM(2017) 795 final, Brussels, Belgium, 2017. 
+
 
 \end{thebibliography}
 
