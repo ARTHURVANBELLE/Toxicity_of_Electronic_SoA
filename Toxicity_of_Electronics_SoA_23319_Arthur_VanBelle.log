@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.20)  10 DEC 2025 23:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.20)  12 DEC 2025 00:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -129,11 +129,14 @@ LaTeX Font Info:    ... okay on input line 352.
 
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 607.
+(Font)              <8> on input line 608.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 607.
+(Font)              <6> on input line 608.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 607.
+(Font)              <5> on input line 608.
+
+Underfull \vbox (badness 4846) has occurred while \output is active []
+
 
 
 [1{C:/Users/arthu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
@@ -143,24 +146,40 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 
-[2] (Toxicity_of_Electronics_SoA_23319_Arthur_VanBelle.aux)
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 774--775
+[]\OT1/ptm/m/n/8 H. Mor-row,``Cadmium and cad-mium al-loys,''in \OT1/ptm/m/it/8 Kirk-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 774--775
+\OT1/ptm/m/it/8 Othmer En-cy-clo-pe-dia of Chem-i-cal Tech-nol-ogy\OT1/ptm/m/n/8 , 2000,
+ []
+
+
+
+
+
+[3
+
+] (Toxicity_of_Electronics_SoA_23319_Arthur_VanBelle.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1308 strings out of 473523
- 26762 string characters out of 5714630
- 435911 words of memory out of 5000000
- 24591 multiletter control sequences out of 15000+600000
+ 1312 strings out of 473523
+ 26834 string characters out of 5714630
+ 434965 words of memory out of 5000000
+ 24595 multiletter control sequences out of 15000+600000
  593878 words of font info for 95 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 36i,8n,56p,477b,230s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 36i,8n,56p,477b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Toxicity_of_Electronics_SoA_23319_Arthur_VanBelle.pdf (2 pages, 60830 bytes).
+Output written on Toxicity_of_Electronics_SoA_23319_Arthur_VanBelle.pdf (3 pages, 65016 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
+ 28 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

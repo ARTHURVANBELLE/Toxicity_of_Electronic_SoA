@@ -565,30 +565,31 @@ It is important to know that not only the electronic components themselves conta
 the wiring, the solder and other mechanical or electrical items that could be included in most of the electronic devices.
 
 The most common and well-known toxic chemicals are listed in Table~\ref{tab:toxics_electronics}.
-Brominated Flame Retardants (BFR) are a big concern since they are used in most of electronic device for safety policies imposed by EU \cite{Goosey2006}.
+Brominated Flame Retardants (BFR) are a big concern since they are widely used in electronic devices to meet fire safety requirements \cite{Goosey2006}.
 The BFRs are extremely present in our lives and are able to bioaccumulate. They are dangerous for most of the living beings as they are endocrine disruptors and carcinogenic \cite{Brown2004, Simonsen2000}.
-They are present in printed circuit boards and incorporated in polymers which are used for casing. This means we are almost constantly in contact with BFRs.
+They are present in printed circuit boards and incorporated in polymers which are used for casing. This means humans are almost constantly in contact with BFRs \cite{Kim2014}.
 The two most common BFRs are Polybrominated Biphenyls (PBB) and Polybrominated Diphenyl Ethers (PBDE).
 
 Another important heavy metal is Lead (Pb). It was widely used in old solders and is still present in some batteries and electronic components.
 Lead is extremely toxic for humans and can lead to neurological disorders, especially for children \cite{Flora2012}, reproductive system, immune system, nervous system and kidneys disorders \cite{Wadi1999,Gillis2012}.
 It is also restricted by the EU regulations \cite{EU_RoHS_Amendment}.
 
-Phtalastes are also widely used in electronic devices as plasticizers.
+Phthalastes are also widely used in electronic devices as plasticizers.
 They are used to increase the flexibility of polymers.
 We find them in cable insulation, plastic parts and housings and many other plastic components not directly linked to electronics.
-Phtalates exist under mutiple forms. Most of them are known for their high endocrine disruption properties \cite{Pecht2018}.
+Phthalates exist under mutiple forms. Only some phthalates (DEHP, DBP, BBP) are confirmed endocrine disruptors. \cite{Pecht2018}.
 
-Cadmium (Cd) is another heavy metal used in batteries (Ni-Cd), electroplating and coatings.
-We find cadmium in some semiconductors as well. As electronic devices users we are exposed to cadmium through inhalation of
-dust particles or via direct contact with casings or other cadmium plated components. \cite{Sharma2015}.
+Cadmium (Cd) is a heavy metal used in nickel–cadmium (Ni-Cd) batteries, electroplating, and various protective coatings \cite{Morrow2000}. 
+It is also present in certain semiconductor materials. Occupational groups such as industrial workers and e-waste recyclers may be exposed to cadmium 
+through inhalation of airborne dust and fumes or through contact with contaminated materials. 
+In contrast, exposure from modern consumer electronic devices during normal use is considered minimal \cite{Sharma2015,Morrow2000}.
 The exposure to cadmium can cause disorder in the immune system,
 reproductive system and nervous system \cite{Sharma2015}.
 
-Mercury (Hg) is another heavy metal used in some switches, sensors, lamps and batteries.
-Although its use has been greatly reduced in the last decades,
-we can still find mercury in some electronic devices.
-Mercury is highly toxic and can affect the nervous system, digestive system and immune system \cite{Zulaikhah2020}.
+Mercury (Hg) is another heavy metal used in some switches, sensors, lamps, and batteries. Although its use in electronic equipment has been significantly reduced in recent decades,
+certain legacy products and specific components may still contain mercury.
+Consequently, direct exposure during normal use is generally uncommon, but accidental breakage or improper disposal
+can still lead to inhalation of mercury vapour, which is highly toxic and can affect the nervous, digestive, and immune systems \cite{Zulaikhah2020}.
 
 Hexavalent chromium (Cr VI) is used for corrosion-resistant coatings and metal plating.
 We find this toxic chemical on printed circuit board to protect the copper traces.
@@ -632,18 +633,44 @@ The discussed chemicals are the most widespread and the most regulated by the Eu
 \section{Exposure Pathways}
 How are we exposed to these toxic chemicals when handling electronic devices ?
 The main exposure pathways are inhalation, ingestion and dermal contact \cite{EC_SWD_2023_760}.
+Table~\ref{tab:exposure_pathways} summarizes the main exposure pathways for each common toxic chemical.
 The inhalation of dust particles is a common way to be exposed to toxic chemicals.
-The dust particles can come from the handling of the electronic devices or from the degradation of the devices over time or from the unboxing of new devices.
+Dust particles can originate from handling electronic devices, from material degradation over time, or from chemical migration from new devices during initial use \cite{Yang2020}.
 The ingestion of toxic chemicals can happen when we eat or drink without washing our hands after handling electronic devices.
 The dermal contact is also a common way to be exposed to toxic chemicals.
 We are in contact with electronic devices all day long.
 
 The respective effect on health of each chemicals depends on the exposure pathway.
-The age and the health condition of the person exposed are also important factors.
-Children are more vulnerable to toxic chemicals as their organs are still developing.
+The age and the health condition of the person exposed are also important factors and children tends to be more vulnerable to toxic chemicals \cite{Flora2012} as their organs are still developing.
+
+\begin{table}[!t]
+  \caption{Exposure Pathways for Toxic Chemicals in Electronics}
+  \label{tab:exposure_pathways}
+  \centering
+  \footnotesize
+  \begin{tabular}{ll}
+    \hline
+    \textbf{Substance} & \textbf{Exposure Routes} \\ 
+    \hline
+    Lead (Pb) & Inhalation, ingestion, skin contact\\
+    Mercury (Hg) & Inhalation (fatal), skin contact\\
+    Cadmium (Cd) & Inhalation, ingestion\\
+    Hexavalent Cr & Inhalation, skin contact\\
+    PBB/PBDE & Skin contact, ingestion\\
+    Phthalates & Skin contact, ingestion, inhalation\\
+    \hline
+  \end{tabular}
+  
+  \vspace{0.5em}
+  \footnotesize
+  \begin{flushleft}
+  \textit{Note:} Abbreviations defined in Table~\ref{tab:toxics_electronics}. 
+  Exposure pathways from \cite{Brown2004,Pecht2018,EC_SWD_2023_760}.
+  \end{flushleft}
+\end{table}
 
 \section{EU Regulatory Framework}
-Since the toxic chemicals used electronic devices are harmful for humans and the environment,
+Since the toxic chemicals used in electronic devices are harmful for humans and the environment,
 we could expect strong regulations to limit their use and exposure.
 As the use of these toxic chemicals is widespread and confer important specific properties to electronic devices,
 it is difficult to completely ban them. However, the European Union has implemented regulations to limit their use.
@@ -651,31 +678,43 @@ it is difficult to completely ban them. However, the European Union has implemen
 The most important regulation is the Restriction of Hazardous Substances Directive (RoHS) \cite{EU_RoHS_Amendment}.
 It restricts the use of certain hazardous substances in electrical and electronic equipment.
 The maximum concentration limits for the most common toxic chemicals in electronics are listed in Table~\ref{tab:toxics_electronics}.
-The RoHS is a good step to limit the use of toxic chemicals in electronic devices.
-However, we could wonder if the regulations are sufficient to protect us since the regulation only limits the concentration of toxic chemicals.
-As we can read in RoHS directive, exemptions are possible for certain device categories purchased before 2019.
+The RoHS is a good step to limit the use of toxic chemicals in electronic devices but it doesn't ban them.
+However, this could raise the question of whether the regulations are sufficient to protect us since the regulation only limits the concentration of toxic chemicals.
+Moreover, as explained in RoHS directive, exemptions are possible for certain device categories purchased before 2019.
 
-Are the regulations well enforced ?
+Another important point is the enforcment of the regulation.
 According to an impact assesment report from the European Commission from 2017 \cite{EU2017ImpactAssessment},
 23-28\% of the electronic devices placed on the EU market were non-compliant with RoHS directive.
 This can be explained by the complexity of the supply chain and the lack of control.
 The enforcement of the regulation is uneven across the EU member states as well.
 Each member state is responsible for the enforcement of the regulation within its territory.\cite{EC_SWD_2023_760}
-The reports about non-compliant devices are mainly about electronic devices imported from China.\cite{EC_SWD_2023_760}
-Some companies should benefit from exemptions but the exemption system seems to unclear and difficult to enforce as well according to the evaluation report from 2023 \cite{EC_SWD_2023_760}.
-
+The reports about non-compliant devices are mainly about electronic devices imported from China\cite{EC_SWD_2023_760}.
+Some companies should benefit from exemptions but the exemption system seems to unclear and difficult to enforce as well
+according to the evaluation report from 2023 \cite{EC_SWD_2023_760}.
 
 The RoHS directive is not only about the toxicity for humans but also for the environment.
+But the main EU regulation dealing with the environmental aspect is the Waste Electrical and Electronic Equipment Directive (WEEE) \cite{EU_WEEE_Directive}.
+It aims to reduce the amount of e-waste and to promote the recycling and reuse of electronic devices.
 The recycling of electronic devices and the correct management of e-waste is an important aspect to consider as well.
 It is important to regulate the use of toxic chemicals in electronic devices but also to ensure that the devices are recycled properly to avoid environmental contamination.
-The protection of the environment is an indirect protection for humans as well. Most of the sources used in this review deal with ingestion of toxic chemicals via contaminated food or water as well.
+The protection of the environment is an indirect protection for humans as well. Most of the sources consulted for this review deal with ingestion of toxic chemicals via contaminated food or water as well.
+
+Other EU regulations deal with the toxicity of chemicals in general such as REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals) regulation \cite{EU_REACH_Regulation}.
+It also regulates chemicals in the EU market but is not specific to electronic devices.
+REACH also covers the exposure to chemicals during manufacturing, recycling and handling.
+The regulation leads to mandatory communication about chemicals from companies, supply chain transparency
+and pressure to find substitue chemicals to the dangerous one. Many chemicals regulated by RoHS were firstly classified 
+as dangerous by REACH regulation. The REACH regulation suffer from the same enforcement issues as RoHS directive though.
+As lots of electronic devices are imported from non-EU countries, where supply chain transparency is not always guaranteed.
+
+
 
 \section{Conclusion}
 This review has highlighted the presence of toxic chemicals in everyday electronic devices and their potential health risks.
-We could ask ourselves if the current regulations are sufficient to protect us from these toxic chemicals.
+The question of whether current regulations are sufficient to protect us from these toxic chemicals is legitimate.
 Even if those chemicals are toxic, they are still widely used in electronic devices due to their specific properties.
 It is important to continue researching and monitoring the presence of these toxic chemicals in electronic devices.
-We can expect it to lead to new regulations which will then lead to the development of safer alternatives.
+these studies are expected to lead to new regulations which will then lead to the development of safer alternatives.
 
 
 
@@ -713,6 +752,9 @@ D.~Brown, I.~Overmeire, L.~Goeyens, M.~Denison, M.~De~Vito, and G.~Clark, ``Anal
 \bibitem{Simonsen2000}
 F.~Simonsen, M.~Stavnsberg, L.~Moller, and T.~Madsen, ``Brominated flame retardants: toxicity and ecotoxicity,'' Centre for Integrated Environment and Toxicology (CETOX), Environment Project No.~568, 2000.
 
+\bibitem{Kim2014}
+Y.~R. Kim, F.~A. Harden, L.-M.~L. Toms, and R.~E. Norman, ``Health consequences of exposure to brominated flame retardants: A systematic review,''\emph{Chemosphere}, vol.~106, pp.~1--19, 2014.
+
 \bibitem{Flora2012}
 G.~Flora, D.~Gupta, and A.~Tiwari, ``Toxicity of lead: A review with recent updates,'' \emph{Interdisciplinary Toxicology}, vol.~5, no.~2, pp.~47--58, 2012, doi: 10.2478/v10102-012-0009-2.
 
@@ -725,33 +767,35 @@ B.~S.~Gillis, Z.~Arbieva, and I.~M.~Gavin, ``Analysis of lead toxicity in human 
 \bibitem{EU_RoHS_Amendment}
 European Commission, ``Commission Delegated Directive (EU) 2015/863 of 31 March 2015 amending Annex~II to Directive 2011/65/EU on the restriction of the use of certain hazardous substances in electrical and electronic equipment,'' \emph{Official Journal of the European Union}, 2015.
 
-\bibitem{Dart2004}
-R.~C.~Dart, K.~M.~Hurlbut, and L.~V.~Boyer-Hassen, ``Lead,'' in \emph{Medical Toxicology}, 3rd~ed., R.~C.~Dart, Ed. Philadelphia, PA, USA: Lippincott Williams \& Wilkins, 2004.
+\bibitem{Pecht2018}
+M.~G.~Pecht, I.~Ali, and A.~Carlson, ``Phthalates in electronics: The risks and the alternatives,'' \emph{IEEE Access}, vol.~6, pp.~6232--6242, 2018, doi: 10.1109/ACCESS.2017.2778950.
 
-% Cadmium sources
-\bibitem{Genchi2020}
-G.~Genchi, M.~S.~Sinicropi, G.~Lauria, A.~Carocci, and A.~Catalano, ``The effects of cadmium toxicity,'' \emph{International Journal of Environmental Research and Public Health}, vol.~17, no.~11, p.~3782, 2020, doi: 10.3390/ijerph17113782.
+\bibitem{Morrow2000}
+H.~Morrow,``Cadmium and cadmium alloys,''in \emph{Kirk‐Othmer Encyclopedia of Chemical Technology}, 2000, doi:10.1002/0471238961.0301041303011818.a01.pub3.
 
 \bibitem{Sharma2015}
 H.~Sharma, N.~Rawal, and B.~B.~Mathew, ``The characteristics, toxicity and effects of cadmium,'' \emph{International Journal of Nanotechnology and Nanoscience}, vol.~3, pp.~1--9, 2015.
 
-% Phtalates sources
-\bibitem{Pecht2018}
-M.~G.~Pecht, I.~Ali, and A.~Carlson, ``Phthalates in electronics: The risks and the alternatives,'' \emph{IEEE Access}, vol.~6, pp.~6232--6242, 2018, doi: 10.1109/ACCESS.2017.2778950.
-
-% Mercury sources
 \bibitem{Zulaikhah2020}
 S.~T.~Zulaikhah, J.~Wahyuwibowo, and A.~A.~Pratama, ``Mercury and its effect on human health: a review of the literature,'' \emph{International Journal of Public Health Science}, vol.~9, no.~2, pp.~103--114, Jun. 2020, doi: 10.11591/ijphs.v9i2.20416.
 
-% Hexavalent chromium sources
 \bibitem{Alvarez2021}
 C.~C.~Alvarez, M.~E.~Bravo Gómez, and A.~H.~Zavala, ``Hexavalent chromium: Regulation and health effects,'' \emph{Journal of Trace Elements in Medicine and Biology}, vol.~65, p.~126729, May 2021, doi: 10.1016/j.jtemb.2021.126729.
 
 \bibitem{EC_SWD_2023_760}
 European Commission, ``Commission Staff Working Document: Evaluation of Directive 2011/65/EU on the Restriction of the Use of Certain Hazardous Substances in Electrical and Electronic Equipment,'' SWD 2023 760 final, Brussels, Dec. 2023.
 
+\bibitem{Yang2020}
+C.~Yang, S.~A. Harris, L.~M. Jantunen, J.~Kvasnicka, L.~V. Nguyen, and M.~L. Diamond,``Phthalates: Relationships between air, dust, electronic devices, and hands with implications for exposure,''\emph{Environmental Science \& Technology}, 2020, doi:10.1021/acs.est.0c00229.
+
+\bibitem{EU_WEEE_Directive}
+European Parliament and Council, ``Directive 2012/19/EU of the European Parliament and of the Council of 4 July 2012 on waste electrical and electronic equipment (WEEE),'' \emph{Official Journal of the European Union}, 2012.
+
+\bibitem{EU_REACH_Regulation}
+European Parliament and Council, ``Regulation (EC) No 1907/2006 of the European Parliament and of the Council of 18 December 2006 concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH),'' \emph{Official Journal of the European Union}, 2006.
+
 \bibitem{EU2017ImpactAssessment}
-European Commission, ``Commission Staff Working Document: Impact Assessment Accompanying the Document Proposal for a Regulation of the European Parliament and of the Council laying down rules and procedures for compliance with and enforcement of Union harmonisation legislation on products,'' SWD(2017) 467 final, COM(2017) 795 final, Brussels, Belgium, 2017. 
+European Commission, ``Commission Staff Working Document: Impact Assessment Accompanying the Document Proposal for a Regulation of the European Parliament and of the Council laying down rules and procedures for compliance with and enforcement of Union harmonisation legislation on products,'' SWD(2017) 467 final, COM(2017) 795 final, Brussels, Belgium, 2017.
 
 
 \end{thebibliography}
