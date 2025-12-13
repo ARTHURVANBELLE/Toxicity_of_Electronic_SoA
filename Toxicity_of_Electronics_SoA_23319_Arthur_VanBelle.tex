@@ -88,7 +88,8 @@
 
 % *** CITATION PACKAGES ***
 %
-%\usepackage{cite}
+\usepackage{cite}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
 % cite.sty was written by Donald Arseneau
 % V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
 % \cite{} output to follow that of the IEEE. Loading the cite package will
@@ -448,13 +449,17 @@
 % 
 % Here we have the typical use of a "T" for an initial drop letter
 % and "HIS" in caps to complete the first word.
-\IEEEPARstart{W}{hy} toxicity in everyday electronics matters ? Most of our electronic devices contains chemicals. Some are inoffensive and other can be harmful.
-Harmful chemicals are widely used and sometimes for security concern.
-In Europe, we have a policy to regulate the amount of the toxic known chemicals.
-Despite this regulation, we are still exposed to these chemicals.
-This review will focus on the toxicity of chemicals contained in everyday electronic devices from a European perspective.
-The purpose of this work is to give an overview of the most common toxic chemicals in electronic devices and how they can affect humans.
-
+\IEEEPARstart{W}{hy} does toxicity in everyday electronics matter?
+Everyday electronic devices contain a wide range of chemical substances embedded in electronic components, 
+wiring, and plastic housings. While many of these substances are chemically inert, others are potentially hazardous to human health. 
+In Europe, strict user-safety standards—most notably EN~62368—impose demanding requirements for fire prevention and ignition resistance 
+in electrical and electronic equipment. Compliance with these safety standards has historically driven the widespread use of flame-retardant 
+materials and other functional additives in electronic devices \cite{Pal2020}. As a result, substances with known toxicological profiles 
+remain present in everyday electronics, 
+despite parallel European policies aimed at limiting their concentration and associated health risks.
+This review focuses on toxic substances currently regulated under European legislation in the context of everyday use of electronic and 
+electrical equipment. 
+While numerous additional additives and emerging chemicals may be present in electronic devices, these are beyond the primary scope of this work.
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
 
@@ -564,6 +569,7 @@ This state of the art report will only treat about the toxicity of the chemicals
 It is important to know that not only the electronic components themselves contain toxic compounds but also the metal or plastic casing,
 the wiring, the solder and other mechanical or electrical items that could be included in most of the electronic devices.
 
+
 The most common and well-known toxic chemicals are listed in Table~\ref{tab:toxics_electronics}.
 Brominated Flame Retardants (BFR) are a big concern since they are widely used in electronic devices to meet fire safety requirements \cite{Goosey2006}.
 The BFRs are extremely present in our lives and are able to bioaccumulate. They are dangerous for most of the living beings as they are endocrine disruptors and carcinogenic \cite{Brown2004, Simonsen2000}.
@@ -574,31 +580,10 @@ Another important heavy metal is Lead (Pb). It was widely used in old solders an
 Lead is extremely toxic for humans and can lead to neurological disorders, especially for children \cite{Flora2012}, reproductive system, immune system, nervous system and kidneys disorders \cite{Wadi1999,Gillis2012}.
 It is also restricted by the EU regulations \cite{EU_RoHS_Amendment}.
 
-Phthalastes are also widely used in electronic devices as plasticizers.
+Phthalates are also widely used in electronic devices as plasticizers.
 They are used to increase the flexibility of polymers.
 We find them in cable insulation, plastic parts and housings and many other plastic components not directly linked to electronics.
 Phthalates exist under mutiple forms. Only some phthalates (DEHP, DBP, BBP) are confirmed endocrine disruptors. \cite{Pecht2018}.
-
-Cadmium (Cd) is a heavy metal used in nickel–cadmium (Ni-Cd) batteries, electroplating, and various protective coatings \cite{Morrow2000}. 
-It is also present in certain semiconductor materials. Occupational groups such as industrial workers and e-waste recyclers may be exposed to cadmium 
-through inhalation of airborne dust and fumes or through contact with contaminated materials. 
-In contrast, exposure from modern consumer electronic devices during normal use is considered minimal \cite{Sharma2015,Morrow2000}.
-The exposure to cadmium can cause disorder in the immune system,
-reproductive system and nervous system \cite{Sharma2015}.
-
-Mercury (Hg) is another heavy metal used in some switches, sensors, lamps, and batteries. Although its use in electronic equipment has been significantly reduced in recent decades,
-certain legacy products and specific components may still contain mercury.
-Consequently, direct exposure during normal use is generally uncommon, but accidental breakage or improper disposal
-can still lead to inhalation of mercury vapour, which is highly toxic and can affect the nervous, digestive, and immune systems \cite{Zulaikhah2020}.
-
-Hexavalent chromium (Cr VI) is used for corrosion-resistant coatings and metal plating.
-We find this toxic chemical on printed circuit board to protect the copper traces.
-Hexavalent chromium is known to be carcinogenic and can cause respiratory problems.
-It can also affect the skin and cause allergic reactions.
-The two main exposure pathways are inhalation and dermal contact. \cite{Alvarez2021}
-
-Other toxic chemicals can be found in electronic devices but are less common.
-The discussed chemicals are the most widespread and the most regulated by the European Union.
 
 \begin{table}[!t]
   \caption{Common Toxic Chemicals in Electronics and EU Limits}
@@ -630,8 +615,29 @@ The discussed chemicals are the most widespread and the most regulated by the Eu
   \end{flushleft}
 \end{table}
 
+Cadmium (Cd) is a heavy metal used in nickel–cadmium (Ni-Cd) batteries, electroplating, and various protective coatings \cite{Morrow2000}. 
+It is also present in certain semiconductor materials. Occupational groups such as industrial workers and e-waste recyclers may be exposed to cadmium 
+through inhalation of airborne dust and fumes or through contact with contaminated materials. 
+In contrast, exposure from modern consumer electronic devices during normal use is considered minimal \cite{Sharma2015,Morrow2000}.
+The exposure to cadmium can cause disorder in the immune system,
+reproductive system and nervous system \cite{Sharma2015}.
+
+Mercury (Hg) is another heavy metal used in some switches, sensors, lamps, and batteries. Although its use in electronic equipment has been significantly reduced in recent decades,
+certain legacy products and specific components may still contain mercury.
+Consequently, direct exposure during normal use is generally uncommon, but accidental breakage or improper disposal
+can still lead to inhalation of mercury vapour, which is highly toxic and can affect the nervous, digestive, and immune systems \cite{Zulaikhah2020}.
+
+Hexavalent chromium (Cr VI) is used for corrosion-resistant coatings and metal plating.
+We find this toxic chemical on printed circuit board to protect the copper traces.
+Hexavalent chromium is known to be carcinogenic and can cause respiratory problems.
+It can also affect the skin and cause allergic reactions.
+The two main exposure pathways are inhalation and dermal contact. \cite{Alvarez2021}
+
+Other toxic chemicals can be found in electronic devices but are less common.
+The discussed chemicals are the most widespread and the most regulated by the European Union.
+
 \section{Exposure Pathways}
-How are we exposed to these toxic chemicals when handling electronic devices ?
+How are we exposed to these toxic chemicals when handling electronic devices?
 The main exposure pathways are inhalation, ingestion and dermal contact \cite{EC_SWD_2023_760}.
 Table~\ref{tab:exposure_pathways} summarizes the main exposure pathways for each common toxic chemical.
 The inhalation of dust particles is a common way to be exposed to toxic chemicals.
@@ -687,9 +693,9 @@ According to an impact assesment report from the European Commission from 2017 \
 23-28\% of the electronic devices placed on the EU market were non-compliant with RoHS directive.
 This can be explained by the complexity of the supply chain and the lack of control.
 The enforcement of the regulation is uneven across the EU member states as well.
-Each member state is responsible for the enforcement of the regulation within its territory.\cite{EC_SWD_2023_760}
+Each member state is responsible for the enforcement of the regulation within its territory\cite{EC_SWD_2023_760}.
 The reports about non-compliant devices are mainly about electronic devices imported from China\cite{EC_SWD_2023_760}.
-Some companies should benefit from exemptions but the exemption system seems to unclear and difficult to enforce as well
+Some companies should benefit from exemptions but the exemption system seems too unclear and difficult to enforce as well
 according to the evaluation report from 2023 \cite{EC_SWD_2023_760}.
 
 The RoHS directive is not only about the toxicity for humans but also for the environment.
@@ -714,7 +720,7 @@ This review has highlighted the presence of toxic chemicals in everyday electron
 The question of whether current regulations are sufficient to protect us from these toxic chemicals is legitimate.
 Even if those chemicals are toxic, they are still widely used in electronic devices due to their specific properties.
 It is important to continue researching and monitoring the presence of these toxic chemicals in electronic devices.
-these studies are expected to lead to new regulations which will then lead to the development of safer alternatives.
+These studies are expected to lead to new regulations which will then lead to the development of safer alternatives.
 
 
 
@@ -742,6 +748,8 @@ these studies are expected to lead to new regulations which will then lead to th
 % set second argument of \begin to the number of references
 % (used to reserve space for the reference number labels box)
 \begin{thebibliography}{1}
+\bibitem{Pal2020}
+S.~G.~Pal, V.~Goan\c{t}\u{a}, and D.~P.~Bistriceanu, ``Design guideline for plastic parts that need to fulfil EN~62368 norm,'' \emph{IOP Conference Series: Materials Science and Engineering}, vol.~997, no.~1, Art.~no.~012101, 2020, doi: 10.1088/1757-899X/997/1/012101.
 
 \bibitem{Goosey2006}
 E.~Goosey, ``Brominated flame retardants: their potential impacts and routes into the environment,'' \emph{Circuit World}, vol.~32, no.~4, pp.~32--35, 2006, doi: 10.1108/03056120610683603.
